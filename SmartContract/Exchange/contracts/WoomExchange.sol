@@ -11,7 +11,7 @@ contract WoomExchange is Ownable, ERC721Validator, IWoomExchange{
     using SafeMath for uint256;
     // For auctions bid by bider, collection and assetId
     mapping(address => mapping( uint256 => mapping(address => Bid))) public bidforAuctions;
-    uint public ownerShare = 1;
+    uint public ownerShare = 5;
     function addOffer(
         address _seller,
         address _collection,
