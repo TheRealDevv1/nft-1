@@ -1,0 +1,136 @@
+.category-container {
+  padding: 22px 0px 11px 40px;
+  width: 1204px;
+  height: auto;
+  background: rgb(50, 41, 37);
+  font-weight: normal;
+  border: 1px solid rgb(117, 77, 56);
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.inner-category-container {
+  box-sizing: border-box;
+  min-width: 0px;
+  width: 100%;
+  display: flex;
+  padding: 0px;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  margin: 0px auto 10px;
+  max-width: 1180px;
+  line-height: 29px;
+}
+.cat-items-wrapper {
+  max-width: 915px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+
+  a {
+    margin-right: 21px;
+  }
+}
+.cat-heading {
+  flex-shrink: 0;
+  align-self: flex-start;
+  white-space: nowrap;
+  margin-right: 24px;
+  font-family: "Baloo Da";
+  font-size: 17px;
+  position: relative;
+  color: rgb(214, 164, 133);
+}
+.cat-items {
+  position: relative;
+  color: rgb(117, 77, 56);
+  font-size: 16px;
+  font-family: "Yuanti SC";
+  font-weight: bold;
+  text-decoration: none;
+  white-space: nowrap;
+  margin-right: 32px;
+}
+.digi-art-wrapper {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: flex;
+  padding: 0px;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-shrink: 1;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.cat-items.ACTIVENAV {
+  padding: 0px 10px;
+  height: 24px;
+  line-height: 22px;
+  color: rgb(50, 41, 37);
+  background: rgb(239, 201, 144);
+  border-radius: 8px;
+}
+.img-more {
+  align-self: flex-start;
+  position: absolute;
+  right: 20px;
+  width: 72px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  color: rgb(214, 164, 133);
+  margin-left: -20px;
+  border-radius: 6px;
+  padding: 0px 5px;
+  border: 1px solid rgb(117, 77, 56);
+  font-family: "Yuanti SC";
+}
+.img-more.ACTIVESCROLL img {
+  transform: rotate(180deg);
+}
+
+@media (max-width: 1400px) {
+  .gBiokR {
+    width: 904px;
+  }
+}
+@media (max-width: 1280px) {
+  .category-container {
+    width: 628px;
+  }
+  .inner-category-container {
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 960px) {
+  .category-container {
+    width: 605px;
+  }
+  .inner-category-container {
+    max-width: 90%;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 600px) {
+  .category-container {
+    width: calc(100% - 40px);
+  }
+  .cat-items-wrapper {
+    width: 100%;
+  }
+  .cat-items {
+    font-size: 14px;
+    margin-right: 16px;
+  }
+  .img-more {
+    position: relative;
+    left: 20px;
+  }
+}

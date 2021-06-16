@@ -23,7 +23,7 @@ const HDWalletProvider = require('@truffle/hdwallet-provider');
 //
 // const fs = require('fs');
 const fs = require('fs');
-const mnemonic = fs.readFileSync("../.secret").toString().trim();
+const mnemonic = fs.readFileSync("../../.secret").toString().trim();
 module.exports = {
   /**
    * Networks define how you connect to your ethereum client and let you set the
@@ -65,13 +65,11 @@ module.exports = {
       network_id: 4
     },
     mainnet: {
-      provider: () => new HDWalletProvider(mnemonic, `https://mainnet.infura.io/v3/29f0131a60c4424bb401b8834c78585f`),
-      network_id: 1,
-      gas: 5500000,  
-      gasPrice: 40000000000,  // check https://ethgasstation.info/
-      confirmations: 2,    // # of confs to wait between deployments. (default: 0)
+      provider: () => new HDWalletProvider(mnemonic, `https://bsc-dataseed.binance.org/`),
+      network_id: 56,
+      confirmations: 10,    // # of confs to wait between deployments. (default: 0)
       timeoutBlocks: 200,  // # of blocks before a deployment times out  (minimum/default: 50)
-      skipDryRun: false     // Skip dry run before migrations? (default: false for public nets )
+      skipDryRun: true     // Skip dry run before migrations? (default: false for public nets )
     },
 
     // Useful for private networks

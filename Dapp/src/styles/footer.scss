@@ -1,0 +1,48 @@
+.xkrrd {
+  display: inline-block;
+}
+.eHORUR {
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(255, 205, 132);
+  font-weight: 500;
+}
+.eHORUR:hover {
+  text-decoration: underline;
+}
+.eHORUR:focus {
+  outline: none;
+  text-decoration: underline;
+}
+.eHORUR:active {
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+}
+.ilgcgT {
+  display: flex;
+  align-items: center;
+  height: 72px;
+  margin: 0px auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.hxjBAP {
+  color: rgb(117, 77, 56);
+  font-family: "Baloo Da";
+}
+.hxjBAP:not(:last-child) {
+  margin-right: 32px;
+}
+@media (max-width: 960px) {
+  .hxjBAP:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+.OrmLg {
+  color: rgb(117, 77, 56);
+  cursor: pointer;
+  font-family: "Baloo Da";
+  white-space: nowrap;
+}

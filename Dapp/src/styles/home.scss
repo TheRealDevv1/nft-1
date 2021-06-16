@@ -1,0 +1,441 @@
+.cards-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 35px;
+}
+.body-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  -webkit-box-pack: justify;
+  justify-content: space-around;
+  flex: 1 1 auto;
+}
+.inner-body-wrapper {
+  overflow: auto;
+}
+.body-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 130px;
+  -webkit-box-align: center;
+  align-items: center;
+  flex: 1 1 0%;
+  overflow: hidden auto;
+  z-index: 1;
+}
+.d-grid {
+  display: grid;
+  grid-auto-rows: auto;
+  row-gap: 20px;
+  position: fixed;
+  top: 64px;
+  right: 1rem;
+  width: 100%;
+  z-index: 2;
+  max-width: 355px !important;
+}
+.d-h {
+  position: relative;
+  max-width: 100%;
+  height: 0px;
+  margin: 0px;
+  display: none;
+}
+.inner-d-h {
+  height: 99%;
+  overflow: auto hidden;
+  display: flex;
+  flex-direction: row;
+}
+.nft-container {
+  color: rgb(214, 164, 133);
+  text-align: center;
+  margin-bottom: 23px;
+}
+.nft-heading {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Baloo Da";
+  color: rgb(255, 205, 132);
+}
+.p-nft {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.dewaVU {
+  display: flex;
+  width: 1204px;
+  margin: 32px 0px 28px;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+.hINlBC {
+  box-sizing: border-box;
+  margin: 0px 0px 10px;
+  min-width: 0px;
+  display: flex;
+  padding: 0px;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: auto;
+}
+.fpUdNy {
+  position: relative;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 174px;
+  background: rgb(255, 205, 132);
+  border-radius: 10px;
+  color: rgb(114, 47, 13);
+  font-family: "Baloo Da";
+  height: 40px;
+  text-decoration: none;
+  margin-right: 16px;
+}
+.gAjnax {
+  position: absolute;
+  top: -8px;
+  left: -9px;
+  width: 36px;
+  height: auto;
+}
+.css-1ppgej9 {
+  box-sizing: border-box;
+  margin: 0px 12px;
+  min-width: 0px;
+}
+.jInkuI {
+  position: relative;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 174px;
+  background: rgb(26, 17, 13);
+  border-radius: 10px;
+  color: rgb(214, 164, 133);
+  font-family: "Baloo Da";
+  height: 40px;
+  text-decoration: none;
+  margin-right: 16px;
+  border: 1px solid rgb(214, 164, 133);
+}
+.css-1ppgej9 {
+  box-sizing: border-box;
+  margin: 0px 12px;
+  min-width: 0px;
+}
+.hINlBC {
+  box-sizing: border-box;
+  margin: 0px 0px 10px;
+  min-width: 0px;
+  display: flex;
+  padding: 0px;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: auto;
+}
+.eaeziS {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: flex;
+  padding: 0px;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  width: 192px;
+  height: 40px;
+  border-radius: 10px;
+  background: rgba(214, 164, 133, 0.2);
+  overflow: hidden;
+}
+.kcuOqq {
+  padding: 0px 10px;
+  width: 100%;
+  height: 40px;
+  line-height: 20px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  background: none;
+  appearance: none;
+  -webkit-text-fill-color: rgb(114, 47, 13);
+}
+.kcuOqq {
+  padding: 0px 10px;
+  width: 100%;
+  height: 40px;
+  line-height: 20px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  background: none;
+  appearance: none;
+  -webkit-text-fill-color: rgb(114, 47, 13);
+}
+.cZSfhD {
+  width: 40px;
+  line-height: 40px;
+  background: rgba(214, 164, 133, 0.5);
+  border-radius: 10px;
+  text-align: center;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.cZSfhD img {
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+}
+.hBtoZQ {
+  position: relative;
+  margin: 0px 15px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  cursor: pointer;
+  height: 40px;
+  user-select: none;
+  padding: 0px 16px;
+  background: rgb(91, 74, 56);
+  border-radius: 8px;
+}
+.kRskKF {
+  font-size: 14px;
+  font-weight: 700;
+  width: 100%;
+  color: rgb(255, 243, 224);
+}
+.dGLyHd {
+  margin-left: 8px;
+}
+.laDAZV {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  cursor: pointer;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+}
+.rTaEQ {
+  position: absolute;
+  top: 50px;
+  bottom: initial;
+  left: initial;
+  right: 0px;
+  background: rgb(91, 74, 56);
+  border-radius: 10px;
+  box-shadow: none;
+  min-width: 72px;
+  max-width: 300px;
+  max-height: 0px;
+  overflow: hidden auto;
+  transition: all 0.3s ease 0s;
+  z-index: 5;
+  opacity: 1;
+}
+.kMPAcf {
+  margin: 0px;
+  padding: 8px 0px;
+  background-color: #5b4a38;
+  border-radius: 10px;
+}
+.bTwXNg.CURSELEST {
+  background: rgb(214, 164, 133);
+  color: rgb(255, 243, 224);
+}
+.bTwXNg {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  color: rgb(214, 164, 133);
+  font-size: 12px;
+  line-height: 24px;
+  padding: 4px 14px;
+  width: 110px;
+  font-weight: bold;
+}
+.bTwXNg:hover {
+  opacity: 0.5;
+}
+
+.cRXyHY {
+  position: relative;
+  margin: 0px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  cursor: pointer;
+  height: 40px;
+  user-select: none;
+  padding: 0px 16px;
+  background: rgb(91, 74, 56);
+  border-radius: 8px;
+}
+.lfjrKV {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  width: 100%;
+  display: flex;
+  padding: 0px;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+}
+.cesPaB {
+  width: auto;
+  // visibility: hidden;
+}
+.khqXDl {
+  margin-left: 10px;
+}
+.juiqNm {
+  transform: rotate(180deg);
+}
+
+.connect-modal {
+  margin: 0px 0px 2rem;
+  border: 1px solid rgb(50, 41, 37);
+  background-color: rgb(50, 41, 37);
+  padding: 0px;
+  width: 50vw;
+  overflow: hidden;
+  align-self: center;
+  max-width: 420px;
+  max-height: 90vh;
+  display: flex;
+  border-radius: 20px;
+  flex-flow: column nowrap;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  color: rgb(255, 205, 132);
+  position: relative;
+}
+
+.head-modal {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 1rem;
+  font-weight: 500;
+  color: inherit;
+}
+
+.lower-modal {
+  background-color: rgb(44, 47, 54);
+  padding: 4rem 2rem;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.inner-modal {
+  display: grid;
+  gap: 10px;
+}
+
+.modal-btn1 {
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(255, 205, 132);
+  font-weight: 500;
+}
+.btn1-modal:hover {
+  cursor: pointer;
+  border: 1px solid rgb(255, 205, 132);
+}
+
+.btn1-modal {
+  background-color: rgb(44, 47, 54);
+  color: rgb(255, 205, 132);
+  outline: none;
+  border: 1px solid rgb(117, 77, 56);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-top: 0px;
+  opacity: 1;
+  width: 100% !important;
+}
+
+.btn1-sec1 {
+  display: flex;
+  flex-flow: column nowrap;
+  -webkit-box-pack: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.btn2-sec2 {
+  display: flex;
+  flex-flow: column nowrap;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.close-icon {
+  position: absolute;
+  right: 1rem;
+  top: 14px;
+  cursor: pointer;
+}
+@media (max-width: 600px) {
+  .connect-modal {
+    width: 85vw;
+  }
+}
+
+@media (max-width: 960px) {
+  .connect-modal {
+    width: 65vw;
+    margin: 0px;
+  }
+}
+
+.jsxLsw {
+  position: absolute;
+  top: 50px;
+  bottom: initial;
+  left: initial;
+  right: 0px;
+  background: rgb(91, 74, 56);
+  border-radius: 10px;
+  box-shadow: none;
+  min-width: 72px;
+  max-width: 300px;
+  max-height: 0px;
+  // overflow: hidden auto;
+  transition: all 0.3s ease 0s;
+  z-index: 5;
+  opacity: 1;
+}

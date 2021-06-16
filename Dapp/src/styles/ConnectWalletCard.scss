@@ -1,0 +1,151 @@
+.wallet-Card-Main {
+  background-color: rgb(50, 41, 37);
+  padding: 16px;
+  border-radius: 28px;
+  width: 276px;
+  min-height: 513px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-right: 12px;
+  margin-left: 12px;
+  margin-bottom: 25px !important;
+  box-sizing: border-box;
+  font-family: "Inter var", sans-serif;
+  color: rgb(114, 47, 13);
+  font-weight: bold;
+  position: relative;
+}
+
+.wallet-Card-Main:hover {
+  box-shadow: rgba(171, 133, 115, 0.17) 0px 2px 10px;
+}
+
+.Item-1 {
+  display: block;
+  width: 244px;
+  height: 325px;
+  border-radius: 18px;
+  // background-image: url(https://d3ggs2vjn5heyw.cloudfront.net/static/nfts/artworks/92ce937e5f6943a28a7feb95f93719a5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.Lower-Card {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.Lower-Card-Item {
+  margin: 16px 0px 20px;
+  width: 100%;
+  font-size: 16px;
+  line-height: 22px;
+  height: 44px;
+  overflow-y: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow-wrap: break-word;
+}
+
+.Card-Like-Wrap {
+  display: flex;
+  margin-bottom: 16px;
+  width: 100%;
+  height: 17px;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.count {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.Card-Like {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.Card-Btn {
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  width: 244px;
+  height: 40px;
+  border-radius: 10px;
+  padding: 0px;
+  background-color: rgb(255, 205, 132);
+  font-weight: bold;
+  color: #722f0d;
+}
+
+.fjQMYg {
+  width: 42%;
+  top: 22px;
+  right: 24px;
+  font-weight: 500;
+  outline: none;
+  font-family: "Baloo Da";
+  cursor: pointer;
+  z-index: 1;
+  color: #d6a485;
+  background-color: #ac562a;
+}
+.dkzats {
+  box-sizing: border-box;
+  margin: 0px;
+  height: 28px;
+  min-width: 0px;
+  -webkit-appearance: none;
+  appearance: none;
+  display: inline-block;
+  text-align: center;
+  line-height: inherit;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 2px 16px;
+  border: 0px;
+  border-radius: 10px;
+  position: absolute;
+}
+.btn-wallet-approve {
+  box-sizing: border-box;
+  margin: 0px;
+  height: 28px;
+  min-width: 0px;
+  -webkit-appearance: none;
+  appearance: none;
+  display: inline-block;
+  text-align: center;
+  line-height: inherit;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 2px 16px;
+  border: 0px;
+  border-radius: 10px;
+  position: absolute;
+  width: 42%;
+  top: 22px;
+  right: 24px;
+  font-weight: 500;
+  outline: none;
+  font-family: "Baloo Da";
+  cursor: pointer;
+  z-index: 1;
+  color: #d6a485;
+  background-color: #ac562a;
+}
