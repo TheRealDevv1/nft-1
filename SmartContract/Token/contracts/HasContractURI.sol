@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
 
-pragma solidity >=0.6.2 <0.8.0;
+pragma solidity >=0.6.2 <0.9.0;
 
 import "@openzeppelin/contracts-upgradeable/introspection/ERC165Upgradeable.sol";
 
-abstract contract HasContractURI is ERC165Upgradeable {
+abstract contract HasContractURI is _ERC165Upgradeable {
 
     string public contractURI;
 

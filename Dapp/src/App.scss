@@ -24,7 +24,7 @@ body {
   background-repeat: no-repeat;
   // background-repeat-x: no-repeat;
   // background-repeat-y: no-repeat;
-  background-color: rgb(26, 17, 13);
+  background-color: rgb(50, 193, 245);
   background-image: url(./assets/image-bg.png);
 }
 .App {
@@ -46,7 +46,7 @@ body {
   flex-flow: row nowrap;
   width: 208px;
   overflow: hidden;
-  border-right: 1px solid rgb(91, 74, 56);
+  border-right: 1px solid rgb(53, 37, 90);
   transition: width 0.15s linear 0s;
 }
 .btn-switch-container {
@@ -57,11 +57,11 @@ body {
   border-radius: 6px;
   font-family: "Baloo Da";
   overflow: hidden;
-  border: 1px solid rgb(214, 164, 133);
+  border: 1px solid rgb(53, 37, 90);
 }
 .btn-switch.ACTIVENAV {
-  background: rgb(255, 205, 132);
-  color: rgb(114, 47, 13);
+  background: rgb(53, 50, 245);
+  color: rgb(50, 193, 13);
 }
 .btn-switch {
   position: relative;
