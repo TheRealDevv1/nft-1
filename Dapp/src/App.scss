@@ -24,7 +24,7 @@ body {
   background-repeat: no-repeat;
   // background-repeat-x: no-repeat;
   // background-repeat-y: no-repeat;
-  background-color: rgb(50, 193, 245);
+  background-color: rgb(34, 86, 253);
   background-image: url(./assets/image-bg.png);
 }
 .App {
@@ -61,7 +61,7 @@ body {
 }
 .btn-switch.ACTIVENAV {
   background: rgb(53, 50, 245);
-  color: rgb(50, 193, 13);
+  color: rgb(52, 13, 193);
 }
 .btn-switch {
   position: relative;
@@ -73,7 +73,7 @@ body {
   text-decoration: none;
 }
 .modal {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(100, 85, 232, 0.5);
   position: fixed;
   height: 100%;
   width: 100%;

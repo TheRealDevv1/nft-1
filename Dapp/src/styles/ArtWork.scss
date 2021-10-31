@@ -109,8 +109,8 @@ button {
   cursor: pointer;
   position: relative;
   z-index: 1;
-  background-color: rgb(255, 205, 132);
-  color: rgb(114, 47, 13);
+  background-color: rgb(13, 114, 95);
+  color: rgb(13, 114, 95);
 }
 
 .fjQMYg:disabled {
@@ -118,22 +118,22 @@ button {
 }
 
 .fjQMYg:focus {
-  box-shadow: rgb(255, 195, 106) 0px 0px 0px 1pt;
-  background-color: rgb(255, 195, 106);
+  box-shadow: rgb(13, 114, 95) 0px 0px 0px 1pt;
+  background-color: rgb(13, 114, 95);
 }
 
 .fjQMYg:hover {
-  background-color: rgb(255, 195, 106);
+  background-color: rgb(106, 215, 255);
 }
 
 .fjQMYg:active {
-  box-shadow: rgb(255, 184, 81) 0px 0px 0px 1pt;
-  background-color: rgb(255, 184, 81);
+  box-shadow: rgb(106, 215, 255) 0px 0px 0px 1pt;
+  background-color: rgb(106, 215, 255);
 }
 
 .fjQMYg:disabled {
-  background-color: rgb(91, 74, 56);
-  color: rgb(225, 204, 172);
+  background-color: rgb(106, 215, 255);
+  color: rgb(106, 215, 2552);
   cursor: auto;
   box-shadow: none;
   border: 1px solid transparent;
@@ -185,14 +185,14 @@ button {
 }
 
 .cmZvMt {
-  color: rgb(214, 164, 133);
+  color: rgb(106, 215, 255);
   text-align: center;
   margin-bottom: 50px;
 }
 
 .hZkTUW {
   font-family: "Baloo Da";
-  color: rgb(255, 205, 132);
+  color: rgb(106, 215, 255);
 }
 
 .cExwyg {

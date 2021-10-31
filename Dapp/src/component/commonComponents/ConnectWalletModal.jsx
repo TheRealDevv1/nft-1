@@ -19,7 +19,7 @@ const ConnectWalletModal = ({ showModal, setShowModal }) => {
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
-  const isWeb3Connected = useSelector((state) => state.web3.web3connected);
+  const isWeb3Connected = useSelector((state) => state.web3.Web3connected);
   const web3Modal = new Web3Modal({
     cacheProvider: true,
     providerOptions,

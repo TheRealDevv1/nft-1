@@ -1,7 +1,8 @@
 import { useState } from "react";
+import React  from 'react';
 
 const Pagination = () => {
-  return (
+return (
     <>
       <div className="sc-ePDpFu bNbtAP">
         <div className="sc-ijhsb bsdQxa">

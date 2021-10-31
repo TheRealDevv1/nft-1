@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import IconBake from "../assets/icon-bake.svg";
 import IconNothingBid from "../assets/icon-nothing-bid.svg";
-import IconArrow from "../assets/icon-arrow.svg";
 import SortIconArrow from "../assets/sort-icon-arrow.svg";
 import IconHeart from "../assets/icon-heart.svg";
 import IconLink from "../assets/icon-link.svg";
