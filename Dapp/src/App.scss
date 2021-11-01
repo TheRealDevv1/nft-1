@@ -46,7 +46,7 @@ body {
   flex-flow: row nowrap;
   width: 208px;
   overflow: hidden;
-  border-right: 1px solid rgb(53, 37, 90);
+  border-right: 1px solid rgb(54, 123, 250);
   transition: width 0.15s linear 0s;
 }
 .btn-switch-container {
@@ -57,7 +57,7 @@ body {
   border-radius: 6px;
   font-family: "Baloo Da";
   overflow: hidden;
-  border: 1px solid rgb(53, 37, 90);
+  border: 1px solid rgb(54, 123, 250);
 }
 .btn-switch.ACTIVENAV {
   background: rgb(53, 50, 245);
@@ -73,7 +73,7 @@ body {
   text-decoration: none;
 }
 .modal {
-  background-color: rgba(100, 85, 232, 0.5);
+  background-color: rgb(53, 50, 245);
   position: fixed;
   height: 100%;
   width: 100%;
